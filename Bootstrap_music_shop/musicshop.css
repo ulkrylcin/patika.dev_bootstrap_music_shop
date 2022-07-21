@@ -1,0 +1,37 @@
+*{box-sizing: border-box;padding: 0px;margin: 0px;}
+body{background-color:#E9ECEF ;}
+#ikon a img{width: 60px;height: 60px;}
+.logo img{width: 120px;height: 120px;padding: 8px;}
+h1{font-weight: bolder;font-size: 36px;font-family: "Sofia", sans-serif;
+   padding: 6px;margin-left: 18px;color: black;}
+.navbar .navbar-nav li a{font-size: 20px;}
+#header,#logok,#social{background-color:rgb(141, 130, 122);}
+p{text-align: justify;font-size: 18px;font-weight: bold;line-height: 44px;}
+#yuv{ font-style: 12px; border-radius:8px ; -webkit-border-radius:8px ; -moz-border-radius:8px ; -ms-border-radius:8px ; -o-border-radius:8px ; }
+#orta{min-height: 700px;}
+.form-select{height: 200px;}
+#buyukimg img{ width: 150px; height: 150px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; }
+#alt{height: 100px;}
+#alt #altmenu a{padding: 10px;color: rgb(233, 78, 78);}
+/* ******************************************************Ürünlerimiz*************** */
+.navbar #navigation a{color: white;text-decoration: none;align-items: center;
+                      padding: 16px;font-size: 16px; margin-block-end: auto;}
+
+#one .card img{width: 180px;height: 200px;padding: 6px; margin-top: 50px;}
+.card{ position: relative; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px;}
+.card .musc{background-color:rgb(135, 233, 78) ;
+            position:absolute;}
+.card .btn{display: block;}
+.card-body p{ font-size: medium; line-height: 20px; font-weight: lighter;}
+#one .card{width: 25%;margin: 2px;}
+@media (max-width:768px){
+                         #one .card{width: 100%;}
+                         .card .musc {left: 350px;}   }
+/* ************************************************Hakkimizda******************* */
+#baslik{font-size: 20px; font-weight: bolder;}
+.card-text{text-align: left;}
+@media(max-width:768px){
+                       .card #cardsiki{width: 100%;}
+                       .card #cardsiki img{height: 250px; width:200px;margin: 12px;}
+                       #baslik,#baslikalt{width:100%;}
+}

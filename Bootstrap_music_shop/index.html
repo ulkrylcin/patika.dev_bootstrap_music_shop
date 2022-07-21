@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ülker Yalçın Alış Veriş Sitesi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/musicshop.css" class="rel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Müzik Dükkanım</title>
+</head>
+<body>
+<div class="container">
+<!-- HEADER -->
+ <div id="header" class="row align-items-center">
+    <div id="logok" class="logo col d-flex align-items-center"><img src="/logo_png.png" alt="logo">
+     <h1 class="px-3">Müzik Dükkanım</h1></div>
+     <div id="social" class="col d-flex justify-content-end">
+            <div id="ikon"><a href="#"><img src="/social_icons_png/facebook_icon_png.png" alt="facebook"></a></div>
+            <div id="ikon"><a href="#"><img src="/social_icons_png/insta_icon_png.png" alt="insta"></a></div>
+            <div id="ikon"><a href="#"><img src="/social_icons_png/twitter_icon_png.png" alt="twitter"></a></div>
+            <div id="ikon"><a href="#"><img src="/social_icons_png/in_icon_png.png" alt="linkedin"></a></div>
+    </div>
+<!-- Ana Menü NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-dark ps-3">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="/index.html" target="_blank" style="font-size:22px;">Ana Sayfa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="/urunlerimiz.html" target="_blank">Ürünlerimiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/hakkimizda.html" target="_blank">Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#" target="_blank">İletişim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary disabled">Çekiliş</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ </div>
+<!-- Orta Alan İçerik & Yan Menü -->
+<div id="orta" class="row ps-3 bg-danger">
+    <section id="icerik" class="col-6 mt-4 text-dark"><p><span style="font-size:26px;">Müzik Dükkanım sitemize hoş geldiniz!</span><br>
+        Bu sitede çeşitli müzik aletlerini bulabileceğiniz gibi daha önce hiç görmedim dediğiniz üflemeli çalgı türü olan Serpent gibi enstrümanlarımızı da bulabilirsiniz. Her bütçeye uygun ve kaliteli ürünlerimiz için lütfen <a href="#" class="text-light bg-dark" id="yuv"> Ürünlerimiz</a> sayfamızı ziyaret ediniz.</p></section>
+    <aside id="yanmenu" class="col-6 mt-4 bg-dark mb-5" style="border-radius: 20px;">
+     <p class="text-center" style="font-size:20px;color:black;border-radius: 20px;background-color: rgb(141, 130, 122);">Sitemizde Bulunan Müzik Aletleri</p>
+      <select multiple class="form-select" aria-label="Default select example" style="color:white;font-size: 20px;background-color: rgb(141, 130, 122);">
+        <option selected>Müzik Aletleri</option>
+        <option>Çello</option><option>Davul</option><option>Midi</option>
+        <option>Keman</option><option>Gitar</option><option>Piyano</option>
+        <option>Bateri</option><option>Mandolin</option><option>Serpent</option>
+        <option>Çello</option><option>Davul</option><option>Midi</option>
+        <option>Keman</option><option>Gitar</option><option>Piyano</option>
+        <option>Bateri</option><option>Mandolin</option><option>Serpent</option>
+      </select><br><br>
+            <div id="buyukimg" class="row">
+            <div class="col-4"></div>
+            <div class="col-8 align-self-lg-start"><img src="/gitar_favicon_1080px.jpg" alt=""></div></div>
+    </aside></div>
+<!-- FOOTER -->
+ <footer id="alt" class="row text-center">
+    <div class="col-2 bg-dark"></div>
+      <div id="altmenu" class="col-8 bg-dark"> <br>
+        <a href="/index.html" target="_blank">Ana Sayfa</a>
+        <a href="/urunlerimiz.html" target="_blank">Ürünlerimiz</a>
+        <a href="/hakkimizda.html" target="_blank">Hakkımızda</a>
+        <a href="#" target="_blank">İletişim</a>
+       </div>
+    <div class="col-2 bg-dark"></div>
+    <p class="bg-dark text-light text-center" style="font-size: 14px;font-weight: lighter;">Tüm Hakları Ülker Yalçın'a aittir.</p>
+ </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
